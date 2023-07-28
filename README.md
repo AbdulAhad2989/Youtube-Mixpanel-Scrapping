@@ -13,7 +13,7 @@ First of all, we look at YouTube hard metrics data scraping:
 - Language used for this purpose was Python. 
 - Google Sheet’s Apps Script(Java Script) was used to passed through specific video ids to the Python Scraping Script.
 - Below is the link to the Google Sheet. 
-- https://docs.google.com/spreadsheets/d/1IzVvOWg7Yd5bJVxnbrVtJzMP0rxOaS65slXm1ITFn44/edit#gid=638558079
+- https://docs.google.com/spreadsheets/d/*******************************************
 - Below is the Apps Script used to pass the columns provided in the Google Sheet as variable to Scraping Script.
 
 ```
@@ -72,7 +72,7 @@ import pandas as pubsub_message_jsonpd
 import pandas_gbq
 from pytube import extract
 from datetime import datetime,timedelta
-api_key='AIzaSyBAAXzs1K0nvivr7DK39Z8YiAnWgXx3N4w'
+api_key='YOUR API KEY'
 
 def hello_pubsub(event, request):
 #     """Triggered from a message on a Cloud Pub/Sub topic.
